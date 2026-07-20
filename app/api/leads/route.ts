@@ -41,7 +41,7 @@ export async function POST(request: Request) {
     windowCount: String(lead.windowCount).slice(0, 30),
     timeframe: String(lead.timeframe).slice(0, 40),
     consent: true,
-    source: "Manchester Window Quotes website",
+    source: "uPVC Windows Manchester website",
     submittedAt: new Date().toISOString(),
   };
 
@@ -61,5 +61,5 @@ export async function POST(request: Request) {
     );
   }
 
-  return NextResponse.json({ message: "Thanks. A local window company will contact you about your quote." });
+  return NextResponse.json({ message: "Thanks. Our team or an installation partner will contact you about your quote." });
 }

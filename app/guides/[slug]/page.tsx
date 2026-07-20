@@ -34,7 +34,7 @@ export default async function GuidePageRoute({ params }: { params: Promise<{ slu
         <aside className="article-aside">
           <strong>Planning a window project?</strong>
           <p>Request a quote from a company serving your Greater Manchester postcode.</p>
-          <Link className="button" href="/contact">Request free quotes <span aria-hidden="true">→</span></Link>
+          <Link className="button" href="/contact">Get a free quote <span aria-hidden="true">→</span></Link>
           <small>Free to use. No obligation.</small>
         </aside>
       </div>

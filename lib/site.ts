@@ -1,8 +1,8 @@
 export const site = {
-  name: "Manchester Window Quotes",
-  shortName: "MWQ",
+  name: "uPVC Windows Manchester",
+  shortName: "UWM",
   description:
-    "Request quotes for uPVC window installation from local window companies serving Manchester and Greater Manchester.",
+    "We supply and install made-to-measure uPVC windows across Manchester and Greater Manchester. Get a free quote for your property.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://upvcwindowsmanchester.vercel.app",
   areas: [
     "Manchester",

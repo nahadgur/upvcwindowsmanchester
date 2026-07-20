@@ -40,7 +40,6 @@ export function ContentHero({
         <Breadcrumbs items={[{ label, href: label === "Areas" ? "/areas" : label === "Guides" ? "/guides" : "/windows" }, { label: title }]} />
         <div className="content-hero-grid">
           <div className="content-hero-copy">
-            <p className="content-label">{label}</p>
             <h1>{title}</h1>
             <p className="content-intro">{intro}</p>
             {children}
@@ -56,7 +55,7 @@ export function ContentHero({
 
 export function CompactQuoteForm() {
   return (
-    <aside className="content-quote" aria-label="Request window quotes">
+    <aside className="content-quote" aria-label="Get a window quote">
       <QuoteForm />
     </aside>
   );
@@ -94,7 +93,7 @@ export function QuoteBand({ title = "Get a quote based on your property" }: { ti
         <h2>{title}</h2>
         <p>Share the postcode, window count and timescale. There is no charge and no obligation to proceed.</p>
       </div>
-      <Link className="button button-light" href="/contact">Request free quotes <span aria-hidden="true">→</span></Link>
+      <Link className="button button-light" href="/contact">Get a free quote <span aria-hidden="true">→</span></Link>
     </section>
   );
 }

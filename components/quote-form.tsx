@@ -46,8 +46,7 @@ export function QuoteForm() {
   return (
     <form className="quote-form" onSubmit={submitForm}>
       <div className="form-heading">
-        <p>Free quote request</p>
-        <h2>Tell us what you need</h2>
+        <h2>Get your free window quote</h2>
         <span>Takes about 60 seconds</span>
       </div>
 
@@ -95,11 +94,11 @@ export function QuoteForm() {
 
       <label className="consent">
         <input name="consent" type="checkbox" value="yes" required />
-        <span>I agree that my details can be used to contact me about this quote and shared with a suitable local window installer. See the <a href="/privacy">privacy notice</a>.</span>
+        <span>I agree that my details can be used to contact me about this quote and shared with an installation partner where needed. See the <a href="/privacy">privacy notice</a>.</span>
       </label>
 
       <button className="button button-submit" type="submit" disabled={status === "sending"}>
-        {status === "sending" ? "Sending…" : "Request my free quotes"}
+        {status === "sending" ? "Sending…" : "Get my free quote"}
         {status !== "sending" && <span aria-hidden="true">→</span>}
       </button>
 

@@ -2,11 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs, QuoteBand } from "@/components/content-page-parts";
 
-export const metadata: Metadata = { title: "About Manchester Window Quotes", description: "Learn what Manchester Window Quotes does, how it earns money and what homeowners should check.", alternates: { canonical: "/about" } };
+export const metadata: Metadata = {
+  title: "About uPVC Windows Manchester",
+  description: "uPVC window supply, surveys and installation across Manchester and Greater Manchester.",
+  alternates: { canonical: "/about" },
+};
 
 export default function AboutPage() {
-  return <main id="main-content" className="simple-page"><div className="shell simple-shell"><Breadcrumbs items={[{ label: "About" }]} /><p className="content-label">About the website</p><h1>A Manchester window quote-matching service</h1><p className="simple-lead">The website helps Greater Manchester homeowners describe a window project and connect with a company that may be able to quote for it.</p>
-    <section className="plain-section"><h2>How the service earns money</h2><p>A participating installer may pay a marketing or lead fee when it receives an enquiry. You do not pay Manchester Window Quotes to submit the form. The installer sets its own prices and contract terms.</p><p>Commercial arrangements do not replace your checks. Confirm the installer’s identity, insurance, certification route, references and written guarantee before accepting work.</p></section>
-    <section className="plain-section"><h2>Why the site names its role</h2><p>Homeowners should know who holds their details and who will carry out the work. The site describes itself as a lead-generation service on the quote form, footer, privacy notice and this page.</p><p>We do not publish invented testimonials, membership badges or installation counts. Verified evidence can be added later with its source and date.</p></section>
-    <QuoteBand /><p className="simple-back"><Link href="/how-it-works">See the full process <span aria-hidden="true">→</span></Link></p></div></main>;
+  return <main id="main-content" className="simple-page"><div className="shell simple-shell">
+    <Breadcrumbs items={[{ label: "About" }]} />
+    <h1>uPVC window supply and installation in Manchester</h1>
+    <p className="simple-lead">We help homeowners replace old windows with made-to-measure uPVC frames and modern double glazing across Manchester and Greater Manchester.</p>
+    <section className="plain-section"><h2>Our window service</h2><p>Tell us what needs replacing and where the property is. We check coverage, discuss the window styles you need and arrange a property survey. Your written quote should list the frames, glass, hardware, fitting work, waste removal and total price.</p><p>We cover one-window replacements, full-house projects, bay windows, casement windows, sash-style windows, tilt-and-turn windows and double glazing upgrades.</p></section>
+    <section className="plain-section"><h2>Who carries out the work</h2><p>We may arrange your survey and installation through a window specialist serving your postcode. The company named on the written quotation is responsible for the survey, contract, installation, certification and guarantee.</p><p>Check the company name, insurance, certification route, payment terms and written guarantee before work starts.</p></section>
+    <QuoteBand />
+    <p className="simple-back"><Link href="/how-it-works">See how installation works <span aria-hidden="true">→</span></Link></p>
+  </div></main>;
 }

@@ -39,7 +39,7 @@ export default async function AreaPageRoute({ params }: { params: Promise<{ slug
       <div className="shell content-bottom">
         <RelatedPages title="Popular window options" links={servicePages.slice(0, 3).map((item) => ({ title: item.name, href: `/windows/${item.slug}`, description: item.description }))} />
         <RelatedPages title="Nearby coverage" links={relatedAreas.map((item) => ({ title: item.name, href: `/areas/${item.slug}`, description: item.description }))} />
-        <QuoteBand title={`Request window quotes in ${page.name}`} />
+        <QuoteBand title={`Get a uPVC window quote in ${page.name}`} />
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     </main>

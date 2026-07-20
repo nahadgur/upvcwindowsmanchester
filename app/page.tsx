@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { QuoteForm } from "@/components/quote-form";
-import { WindowVisual } from "@/components/window-visual";
 import { areaPages, guidePages } from "@/lib/content";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "uPVC Windows Manchester | Compare Local Quotes",
+  title: "uPVC Windows Manchester | Supply & Installation",
   description:
-    "Planning new uPVC windows in Manchester? Tell us what you need and request no-obligation quotes from a local window company.",
+    "We supply and install made-to-measure uPVC windows across Manchester and Greater Manchester. Get a free quote for replacement windows and double glazing.",
 };
 
 const windowOptions = [
@@ -21,7 +21,7 @@ const windowOptions = [
 const faqs = [
   ["How much do uPVC windows cost in Manchester?", "The price depends on window size, style, glazing, frame colour, access and the number being fitted. A quote based on your property is more useful than a broad online average."],
   ["Is the quote request free?", "Yes. It is free to submit and there is no obligation to accept a quote."],
-  ["Who will contact me?", "Your details may be shared with a suitable window installer serving your Manchester postcode. We are a quote-request website, not the company that carries out the installation."],
+  ["Who will contact me?", "Our team or an installation partner serving your Manchester postcode will contact you to discuss the property and arrange a survey."],
   ["Can I replace only one or two windows?", "Yes. Select 1–2 windows on the form. Availability will depend on installers working in your area."],
   ["Do you cover Greater Manchester?", "Yes. Requests are welcomed from Manchester, Salford, Trafford, Stockport, Tameside, Oldham, Rochdale, Bury, Bolton and Wigan."],
   ["What should I compare between quotes?", "Check the window specification, glass, security, guarantees, fitting details, waste removal, timescale and whether the total includes VAT. Do not compare on headline price alone."],
@@ -31,9 +31,9 @@ export default function HomePage() {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "uPVC window quote request service",
+    name: "uPVC window supply and installation in Manchester",
     areaServed: site.areas.map((name) => ({ "@type": "AdministrativeArea", name })),
-    serviceType: "uPVC window installation quote matching",
+    serviceType: "uPVC window supply and installation",
     provider: { "@type": "Organization", name: site.name, url: site.url },
   };
   const faqSchema = {
@@ -51,26 +51,26 @@ export default function HomePage() {
       <section className="hero">
         <div className="shell hero-grid">
           <div className="hero-copy">
-            <p className="availability"><span /> Covering Manchester and Greater Manchester</p>
             <h1>uPVC Windows<br /><em>Manchester</em></h1>
-            <p className="hero-lead">Get free quotes from window companies covering your postcode. Tell us how many windows you need and when you want the work done.</p>
+            <p className="hero-lead">We supply and install made-to-measure uPVC windows across Manchester and Greater Manchester. Get a free quote for replacement windows, double glazing, casement windows, sash-style windows and bay windows.</p>
             <ul className="hero-points">
-              <li><span aria-hidden="true">✓</span> Free quote request</li>
-              <li><span aria-hidden="true">✓</span> No pressure to proceed</li>
-              <li><span aria-hidden="true">✓</span> Local coverage</li>
+              <li><span aria-hidden="true">✓</span> Made to measure</li>
+              <li><span aria-hidden="true">✓</span> Supply and installation</li>
+              <li><span aria-hidden="true">✓</span> Manchester coverage</li>
             </ul>
-            <a className="button hero-button" href="#quote">Get my free quotes <span aria-hidden="true">→</span></a>
-            <p className="disclosure">A lead-generation service. We connect quote requests with window installers and do not fit windows ourselves.</p>
+            <a className="button hero-button" href="#quote">Get a free quote <span aria-hidden="true">→</span></a>
           </div>
-          <WindowVisual />
+          <div className="hero-image">
+            <Image src="/images/manchester-window-installers-hero.webp" alt="Two window fitters installing a white uPVC window in a Manchester terraced house" fill priority sizes="(max-width: 900px) 100vw, 45vw" />
+          </div>
           <div className="hero-form" id="quote"><QuoteForm /></div>
         </div>
       </section>
 
       <section className="proof-strip" aria-label="Service benefits">
         <div className="shell proof-grid">
-          <div><strong>60 sec</strong><span>Typical request time</span></div>
-          <div><strong>£0</strong><span>Cost to request a quote</span></div>
+          <div><strong>60 sec</strong><span>To request a quote</span></div>
+          <div><strong>£0</strong><span>For your initial quote</span></div>
           <div><strong>10 boroughs</strong><span>Across Greater Manchester</span></div>
           <div><strong>No obligation</strong><span>Your decision stays yours</span></div>
         </div>
@@ -141,14 +141,14 @@ export default function HomePage() {
         <div className="shell">
           <div className="section-heading centred">
             <h2>From postcode to quote</h2>
-            <p>A short request gives a local installer the basics they need to start a useful conversation.</p>
+            <p>Tell us what you need. We will discuss the property and arrange the next step.</p>
           </div>
           <ol className="process-grid">
             <li><span>1</span><h3>Describe the job</h3><p>Share your postcode, window count and preferred timescale.</p></li>
-            <li><span>2</span><h3>Speak to an installer</h3><p>A company serving your area can contact you to discuss the property.</p></li>
+            <li><span>2</span><h3>Arrange a survey</h3><p>We discuss the property and arrange a suitable time to measure.</p></li>
             <li><span>3</span><h3>Review the quote</h3><p>Check the specification, fitting details and total before deciding.</p></li>
           </ol>
-          <div className="process-action"><a className="button" href="#quote">Start my quote request <span aria-hidden="true">→</span></a><small>No payment. No obligation.</small></div>
+          <div className="process-action"><a className="button" href="#quote">Get a free quote <span aria-hidden="true">→</span></a><small>No payment. No obligation.</small></div>
         </div>
       </section>
 
@@ -157,10 +157,10 @@ export default function HomePage() {
           <div>
             <h2>Manchester knowledge matters</h2>
             <p>Window requirements change from one property to the next. A bay-fronted terrace in Levenshulme is not the same job as a modern flat in Salford Quays or a semi in Didsbury.</p>
-            <p>Your postcode helps route the request to a company that covers the area and can discuss the right specification for the building.</p>
+            <p>We use your postcode to check coverage and discuss the right specification for the building.</p>
           </div>
           <div className="area-card">
-            <strong>Areas covered</strong>
+            <h3>Areas covered</h3>
             <ul>{site.areas.map((area) => <li key={area}><span aria-hidden="true">↗</span>{area}</li>)}</ul>
             <p>Not sure if your postcode is covered? Send the request and we will check.</p>
           </div>
@@ -172,7 +172,7 @@ export default function HomePage() {
           <div className="faq-intro">
             <h2>Sensible questions before you request a quote</h2>
             <p>Clear answers now make it easier to compare options later.</p>
-            <a href="#quote">Request free quotes <span aria-hidden="true">→</span></a>
+            <a href="#quote">Get a free quote <span aria-hidden="true">→</span></a>
           </div>
           <div className="faq-list">
             {faqs.map(([question, answer], index) => (
@@ -187,8 +187,8 @@ export default function HomePage() {
 
       <section className="final-cta">
         <div className="shell final-cta-inner">
-          <div><h2>Ready to price the job properly?</h2><p>Share the basics now. Review the details before you decide.</p></div>
-          <a className="button button-light" href="#quote">Request my free quotes <span aria-hidden="true">→</span></a>
+          <div><h2>Need new uPVC windows in Manchester?</h2><p>Tell us about the property and get a free quote.</p></div>
+          <a className="button button-light" href="#quote">Get a free quote <span aria-hidden="true">→</span></a>
         </div>
       </section>
 

@@ -26,7 +26,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   return (
     <main id="main-content">
       <ContentHero label="Windows" title={page.title} intro={page.intro} image={page.image} imageAlt={page.imageAlt}>
-        <a className="button" href="#page-quote">Request local quotes <span aria-hidden="true">→</span></a>
+        <a className="button" href="#page-quote">Get a free quote <span aria-hidden="true">→</span></a>
       </ContentHero>
       <div className="shell content-layout">
         <article className="longform">
