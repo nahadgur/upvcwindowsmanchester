@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { QuoteForm } from "@/components/quote-form";
-import { areaPages, guidePages } from "@/lib/content";
+import { guidePages } from "@/lib/content";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -134,17 +134,17 @@ export default function HomePage() {
       <section className="section home-content-links">
         <div className="shell">
           <div className="section-heading split-heading">
-            <div><h2>uPVC windows across Greater Manchester</h2></div>
-            <p>We cover Manchester, Salford, Trafford, Stockport and the wider city region. Choose your area for local property and planning information.</p>
+            <div><h2>uPVC window guides for Manchester homeowners</h2></div>
+            <p>Check costs, planning rules, energy ratings and common window problems before you request a quote.</p>
           </div>
           <div className="home-link-columns">
             <div>
-              <div className="home-list-heading"><h3>Areas we cover</h3><Link href="/areas">View all areas</Link></div>
-              <ul>{areaPages.slice(0, 6).map((area) => <li key={area.slug}><Link href={`/areas/${area.slug}`}><span>{area.name}</span><i aria-hidden="true">→</i></Link></li>)}</ul>
+              <div className="home-list-heading"><h3>Buying and planning</h3><Link href="/guides">View all guides</Link></div>
+              <ul>{guidePages.slice(0, 3).map((guide) => <li key={guide.slug}><Link href={`/guides/${guide.slug}`}><span>{guide.title}</span><i aria-hidden="true">→</i></Link></li>)}</ul>
             </div>
             <div>
-              <div className="home-list-heading"><h3>uPVC window guides</h3><Link href="/guides">View all guides</Link></div>
-              <ul>{guidePages.slice(0, 4).map((guide) => <li key={guide.slug}><Link href={`/guides/${guide.slug}`}><span>{guide.title}</span><i aria-hidden="true">→</i></Link></li>)}</ul>
+              <div className="home-list-heading"><h3>Quotes and window problems</h3></div>
+              <ul>{guidePages.slice(3).map((guide) => <li key={guide.slug}><Link href={`/guides/${guide.slug}`}><span>{guide.title}</span><i aria-hidden="true">→</i></Link></li>)}</ul>
             </div>
           </div>
         </div>
