@@ -3,7 +3,7 @@ export const site = {
   shortName: "MWQ",
   description:
     "Request quotes for uPVC window installation from local window companies serving Manchester and Greater Manchester.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://example.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://upvcwindowsmanchester.vercel.app",
   areas: [
     "Manchester",
     "Salford",

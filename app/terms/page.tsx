@@ -1,0 +1,8 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+
+export const metadata: Metadata = { title: "Website terms", description: "Terms for using the Manchester Window Quotes website and quote-request service.", robots: { index: false, follow: true } };
+
+export default function TermsPage() {
+  return <main id="main-content" className="legal-page"><div className="shell legal-shell"><p><Link href="/">← Back to home</Link></p><h1>Website terms</h1><p className="legal-intro">These terms cover use of the website and its quote-request form.</p><h2>Quote-request service</h2><p>Manchester Window Quotes is a lead-generation website. We may share an enquiry with a window installer that covers the postcode. We do not promise a set number of quotes or that an installer will accept every request.</p><h2>Installer contracts</h2><p>Any survey, quotation or installation contract is between you and the installer. Check the company, specification, payment terms, certification and guarantees before agreeing to work.</p><h2>Website information</h2><p>Guides provide general information for properties in England. Planning rules, Building Regulations, product standards and local controls can change. Check current official guidance for the property and project.</p><h2>Acceptable use</h2><p>Submit accurate contact and project information. Do not use the form for spam, unlawful content, false enquiries or attempts to interfere with the service.</p><h2>Operator details</h2><div className="legal-warning"><strong>Launch requirement</strong><p>Add the legal operator name, registered or trading address, company number where applicable, and contact details before publishing.</p></div></div></main>;
+}

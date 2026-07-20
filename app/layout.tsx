@@ -39,11 +39,23 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <span><b>Manchester</b><small>Window Quotes</small></span>
             </Link>
             <nav aria-label="Primary navigation">
-              <a href="/#window-options">Window options</a>
-              <a href="/#how-it-works">How it works</a>
-              <a href="/#questions">Questions</a>
-              <a className="button button-small" href="/#quote">Get quotes</a>
+              <Link href="/windows">Windows</Link>
+              <Link href="/areas">Areas</Link>
+              <Link href="/guides">Guides</Link>
+              <Link href="/how-it-works">How it works</Link>
+              <Link className="button button-small" href="/contact">Get quotes</Link>
             </nav>
+            <details className="mobile-menu">
+              <summary>Menu <span aria-hidden="true">+</span></summary>
+              <div>
+                <Link href="/windows">Window options</Link>
+                <Link href="/areas">Areas covered</Link>
+                <Link href="/guides">Buying guides</Link>
+                <Link href="/how-it-works">How it works</Link>
+                <Link href="/about">About</Link>
+                <Link href="/contact">Request quotes</Link>
+              </div>
+            </details>
           </div>
         </header>
         {children}
@@ -57,9 +69,18 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <p>A quote-request service for homeowners across Greater Manchester.</p>
             </div>
             <div>
-              <strong>Useful links</strong>
-              <Link href="/#how-it-works">How it works</Link>
+              <strong>Explore</strong>
+              <Link href="/windows">Window options</Link>
+              <Link href="/areas">Areas covered</Link>
+              <Link href="/guides">Buying guides</Link>
+              <Link href="/how-it-works">How it works</Link>
+            </div>
+            <div>
+              <strong>Website</strong>
+              <Link href="/about">About</Link>
+              <Link href="/contact">Request quotes</Link>
               <Link href="/privacy">Privacy</Link>
+              <Link href="/terms">Terms</Link>
             </div>
             <div>
               <strong>Good to know</strong>
@@ -71,7 +92,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <span>Greater Manchester, UK</span>
           </div>
         </footer>
-        <a className="mobile-cta" href="/#quote">Get free quotes <span aria-hidden="true">→</span></a>
+        <Link className="mobile-cta" href="/contact">Get free quotes <span aria-hidden="true">→</span></Link>
       </body>
     </html>
   );

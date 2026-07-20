@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { QuoteForm } from "@/components/quote-form";
 import { WindowVisual } from "@/components/window-visual";
+import { areaPages, guidePages } from "@/lib/content";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -10,10 +12,10 @@ export const metadata: Metadata = {
 };
 
 const windowOptions = [
-  { number: "01", title: "Casement windows", copy: "The practical all-rounder. Side- or top-opening designs with secure multi-point locking." },
-  { number: "02", title: "Sash-style windows", copy: "Traditional proportions for period terraces, with modern glazing and low-maintenance frames." },
-  { number: "03", title: "Bay windows", copy: "Keep the character and extra space of a Manchester bay while improving warmth and security." },
-  { number: "04", title: "Tilt and turn", copy: "A flexible choice for ventilation, easy cleaning and rooms above ground level." },
+  { number: "01", slug: "casement-windows", title: "Casement windows", copy: "The practical all-rounder. Side- or top-opening designs with secure multi-point locking." },
+  { number: "02", slug: "sash-windows", title: "Sash-style windows", copy: "Traditional proportions for period terraces, with modern glazing and low-maintenance frames." },
+  { number: "03", slug: "bay-windows", title: "Bay windows", copy: "Keep the character and extra space of a Manchester bay while improving warmth and security." },
+  { number: "04", slug: "tilt-and-turn-windows", title: "Tilt and turn", copy: "A flexible choice for ventilation, easy cleaning and rooms above ground level." },
 ];
 
 const faqs = [
@@ -49,15 +51,15 @@ export default function HomePage() {
       <section className="hero">
         <div className="shell hero-grid">
           <div className="hero-copy">
-            <p className="availability"><span /> Quote requests open across Greater Manchester</p>
-            <h1>New uPVC windows.<br /><em>Clear local quotes.</em></h1>
-            <p className="hero-lead">Tell us about your home and request a no-obligation quote from a window company serving your Manchester postcode.</p>
+            <p className="availability"><span /> Covering Manchester and Greater Manchester</p>
+            <h1>uPVC Windows<br /><em>Manchester</em></h1>
+            <p className="hero-lead">Get free quotes from window companies covering your postcode. Tell us how many windows you need and when you want the work done.</p>
             <ul className="hero-points">
               <li><span aria-hidden="true">✓</span> Free quote request</li>
               <li><span aria-hidden="true">✓</span> No pressure to proceed</li>
               <li><span aria-hidden="true">✓</span> Local coverage</li>
             </ul>
-            <a className="button hero-button" href="#quote">Request free quotes <span aria-hidden="true">→</span></a>
+            <a className="button hero-button" href="#quote">Get my free quotes <span aria-hidden="true">→</span></a>
             <p className="disclosure">A lead-generation service. We connect quote requests with window installers and do not fit windows ourselves.</p>
           </div>
           <WindowVisual />
@@ -84,13 +86,33 @@ export default function HomePage() {
           </div>
           <div className="option-grid">
             {windowOptions.map((item) => (
-              <article className="option-card" key={item.title}>
+              <Link className="option-card" href={`/windows/${item.slug}`} key={item.title}>
                 <span>{item.number}</span>
                 <div className={`mini-window mini-window-${item.number}`} aria-hidden="true"><i /><i /><i /></div>
                 <h3>{item.title}</h3>
                 <p>{item.copy}</p>
-              </article>
+                <strong className="card-link">Explore option <span aria-hidden="true">→</span></strong>
+              </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section home-content-links">
+        <div className="shell">
+          <div className="section-heading split-heading">
+            <div><h2>Window guidance built around the property</h2></div>
+            <p>Research the product, check the local context, then give each installer the same written scope.</p>
+          </div>
+          <div className="home-link-columns">
+            <div>
+              <div className="home-list-heading"><h3>Greater Manchester areas</h3><Link href="/areas">View all areas</Link></div>
+              <ul>{areaPages.slice(0, 6).map((area) => <li key={area.slug}><Link href={`/areas/${area.slug}`}><span>{area.name}</span><i aria-hidden="true">→</i></Link></li>)}</ul>
+            </div>
+            <div>
+              <div className="home-list-heading"><h3>Homeowner guides</h3><Link href="/guides">View all guides</Link></div>
+              <ul>{guidePages.slice(0, 4).map((guide) => <li key={guide.slug}><Link href={`/guides/${guide.slug}`}><span>{guide.title}</span><i aria-hidden="true">→</i></Link></li>)}</ul>
+            </div>
           </div>
         </div>
       </section>
