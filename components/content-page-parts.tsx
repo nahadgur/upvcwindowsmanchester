@@ -70,10 +70,10 @@ export function DecisionList({ title, items }: { title: string; items: string[] 
   );
 }
 
-export function PageFaqs({ faqs }: { faqs: Faq[] }) {
+export function PageFaqs({ faqs, title = "Frequently asked questions" }: { faqs: Faq[]; title?: string }) {
   return (
     <section className="page-faqs" aria-labelledby="page-faq-title">
-      <h2 id="page-faq-title">Questions homeowners ask</h2>
+      <h2 id="page-faq-title">{title}</h2>
       <div className="faq-list">
         {faqs.map((faq, index) => (
           <details key={faq.question} open={index === 0}>

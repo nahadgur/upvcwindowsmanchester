@@ -53,8 +53,8 @@ export const servicePages: ServicePage[] = [
     title: "uPVC windows in Manchester",
     description: "Made-to-measure uPVC windows supplied and installed across Manchester and Greater Manchester.",
     intro: "uPVC remains a practical frame material for Manchester homes because it needs little upkeep, works with several opening styles and comes in colours that suit both brick terraces and newer estates.",
-    image: "/images/manchester-bay-window.webp",
-    imageAlt: "White uPVC bay window on a red-brick Manchester terrace",
+    image: "/images/service-upvc-windows-manchester.webp",
+    imageAlt: "Manchester window fitter checking a newly installed white uPVC window",
     bestFor: ["Low-maintenance replacement projects", "Homes that need better draught control", "White, coloured or woodgrain frame finishes", "Single windows through to full-house work"],
     choices: ["Frame colour inside and out", "Double or triple glazing", "Handle and hinge specification", "Trickle ventilation", "Decorative bars or plain glass", "Sill depth and finishing trims"],
     sections: [
@@ -73,8 +73,8 @@ export const servicePages: ServicePage[] = [
     title: "Replacement windows in Manchester",
     description: "Replacement uPVC windows supplied and installed in homes across Greater Manchester.",
     intro: "Replacement work should fix the cause of the problem and leave the wall, sill and ventilation in sound condition. A clear survey helps you avoid paying for a new frame around an old defect.",
-    image: "/images/upvc-casement-window.webp",
-    imageAlt: "Close view of a white replacement casement window in red brick",
+    image: "/images/service-replacement-windows-manchester.webp",
+    imageAlt: "Window fitters removing an old timber frame before installing a replacement uPVC window",
     bestFor: ["Draughty or difficult-to-close windows", "Misted double-glazed units", "Rotten timber frames", "Full-house energy upgrades"],
     choices: ["Repair or full replacement", "Like-for-like appearance", "Opening direction and escape needs", "Ventilation provision", "Making good around the reveal", "Removal of old frames and glass"],
     sections: [
@@ -93,8 +93,8 @@ export const servicePages: ServicePage[] = [
     title: "uPVC casement windows in Manchester",
     description: "Secure top-hung and side-hung uPVC casement windows installed across Greater Manchester.",
     intro: "Casement windows suit many Manchester homes because each pane can be fixed, top-hung or side-hung. That flexibility helps you balance ventilation, cleaning, security and the proportions of the elevation.",
-    image: "/images/upvc-casement-window.webp",
-    imageAlt: "White side-opening uPVC casement window",
+    image: "/images/service-casement-windows-manchester.webp",
+    imageAlt: "Window fitter adjusting the hardware on an open white uPVC casement window",
     bestFor: ["Semis and detached homes", "Simple, efficient opening layouts", "Bedrooms that need escape openings", "Easy-to-match replacement work"],
     choices: ["Top-hung or side-hung openers", "Fixed panes for more glass area", "Fire-escape hinge requirements", "Restrictors for upper floors", "Handle height and colour", "Mullion and transom layout"],
     sections: [
@@ -113,8 +113,8 @@ export const servicePages: ServicePage[] = [
     title: "uPVC sash-style windows in Manchester",
     description: "Low-maintenance sash-style uPVC windows for Manchester terraces, villas and period homes.",
     intro: "Sash-style uPVC windows can retain vertical proportions while adding modern seals and double glazing. The best result comes from matching the original opening, meeting rail and glazing-bar positions rather than adding decorative detail at random.",
-    image: "/images/sash-window-interior.webp",
-    imageAlt: "Sash-style windows inside a Manchester period room",
+    image: "/images/service-sash-windows-manchester.webp",
+    imageAlt: "Window fitter demonstrating a tall white sash-style uPVC window in a period room",
     bestFor: ["Victorian and Edwardian terraces", "Period appearance with low upkeep", "Vertical openings", "Homes where proportions matter"],
     choices: ["Run-through or surface-mounted horns", "Mechanical joints or welded corners", "Glazing-bar pattern", "Sash travel and restrictors", "White or woodgrain finish", "Traditional or modern hardware"],
     sections: [
@@ -133,8 +133,8 @@ export const servicePages: ServicePage[] = [
     title: "uPVC bay windows in Manchester",
     description: "Bay window replacement and upgrades for Manchester terraces and semi-detached homes.",
     intro: "A bay window affects the appearance, structure and weathering of the front elevation. Replacement work needs accurate angles, suitable support and careful external sealing rather than a row of standard frames joined on site.",
-    image: "/images/manchester-bay-window.webp",
-    imageAlt: "Three-part white uPVC bay window on a Manchester terrace",
+    image: "/images/service-bay-windows-manchester.webp",
+    imageAlt: "Two Manchester window fitters installing a white uPVC bay window on a red-brick terrace",
     bestFor: ["Bay-fronted terraces", "1930s semi-detached homes", "Rooms that benefit from wider views", "Replacing cold or leaking bay frames"],
     choices: ["Three, four or five-part layout", "Opening panes and ventilation", "Structural bay-pole requirements", "Roof and sill condition", "Internal board and trim finish", "Matching upper and lower bays"],
     sections: [
@@ -153,8 +153,8 @@ export const servicePages: ServicePage[] = [
     title: "Tilt-and-turn windows in Manchester",
     description: "Secure inward-opening tilt-and-turn uPVC windows for Manchester flats and homes.",
     intro: "Tilt-and-turn windows use one handle for two opening modes. Tilt provides controlled ventilation at the top, while the turn position opens the sash inward for cleaning and access.",
-    image: "/images/tilt-turn-window.webp",
-    imageAlt: "White tilt-and-turn window open at the top in a Manchester flat",
+    image: "/images/service-tilt-turn-windows-manchester.webp",
+    imageAlt: "Window fitter checking an open white tilt-and-turn window in a Manchester apartment",
     bestFor: ["Flats and upper floors", "Rooms with restricted outside access", "Controlled everyday ventilation", "Modern elevations"],
     choices: ["Sash size and weight", "Handle sequence", "Restrictors and safety", "Inward clearance", "Frame colour", "Fixed and opening pane layout"],
     sections: [
@@ -173,8 +173,8 @@ export const servicePages: ServicePage[] = [
     title: "Double glazing in Manchester",
     description: "Double-glazed uPVC windows and sealed-unit replacement across Greater Manchester.",
     intro: "Double glazing combines two panes with a sealed cavity. Frame design, glass coatings, spacer bars, installation and ventilation all affect how the finished window performs.",
-    image: "/images/sash-window-interior.webp",
-    imageAlt: "Modern double-glazed sash-style windows in a period room",
+    image: "/images/service-double-glazing-manchester.webp",
+    imageAlt: "Gloved installer fitting a sealed double-glazed unit into a white uPVC frame",
     bestFor: ["Replacing single glazing", "Failed sealed units", "Reducing draughts and cold surfaces", "Whole-home upgrades"],
     choices: ["Whole-window or centre-pane performance", "Low-emissivity glass", "Warm-edge spacer", "Safety glass locations", "Acoustic glass options", "Patterned or obscure glass"],
     sections: [
@@ -193,7 +193,7 @@ export const areaPages: AreaPage[] = [
   {
     slug: "salford", name: "Salford", title: "uPVC windows in Salford", description: "uPVC windows supplied and installed for terraces, semis and flats across Salford.",
     intro: "Salford includes dense Victorian streets, post-war estates and apartment development around the Quays. Window design needs to suit the building and the exposure rather than follow one city-wide specification.",
-    image: "/images/manchester-bay-window.webp", imageAlt: "White bay window on a Greater Manchester red-brick terrace",
+    image: "/images/area-salford-upvc-windows.webp", imageAlt: "Window fitter sealing a white uPVC window on a wet Salford terrace",
     neighbourhoods: ["Eccles", "Swinton", "Pendleton", "Worsley", "Irlam", "Salford Quays"], propertyTypes: ["Red-brick terraces", "1930s semis", "Post-war houses", "Purpose-built flats"],
     localDetail: "Busy routes can make acoustic glass and ventilator placement worth discussing. Apartments also bring access, management-company and opening-restrictor questions that a house survey may not cover.",
     planningNote: "Leaseholders should check the lease and obtain any required freeholder or management-company consent before changing external windows.",
@@ -203,7 +203,7 @@ export const areaPages: AreaPage[] = [
   {
     slug: "stockport", name: "Stockport", title: "uPVC windows in Stockport", description: "uPVC and replacement windows supplied and installed across Stockport.",
     intro: "Stockport housing ranges from stone and brick terraces to bay-fronted semis and newer suburban estates. Accurate proportions matter on older front elevations, while access and large openings often shape quotes for semis.",
-    image: "/images/sash-window-interior.webp", imageAlt: "Sash-style double glazing in a period Greater Manchester room",
+    image: "/images/area-stockport-upvc-windows.webp", imageAlt: "Window fitter measuring the bay windows of a Stockport semi-detached house",
     neighbourhoods: ["Heaton Moor", "Bramhall", "Cheadle", "Marple", "Reddish", "Hazel Grove"], propertyTypes: ["Period terraces", "Bay-fronted semis", "Detached suburban homes", "Converted flats"],
     localDetail: "Bay windows appear across many Stockport neighbourhoods. Ask the surveyor to inspect bay support, roof condition and internal boards rather than pricing the frames alone.",
     planningNote: "Older properties and conservation areas may need a closer match to existing materials and details. Check with Stockport Council before altering a protected elevation.",
@@ -213,7 +213,7 @@ export const areaPages: AreaPage[] = [
   {
     slug: "trafford", name: "Trafford", title: "uPVC windows in Trafford", description: "Replacement uPVC windows installed across Trafford and south-west Manchester.",
     intro: "Trafford combines Victorian terraces, substantial inter-war semis and modern homes. Front windows can carry much of a property’s character, so the frame layout deserves the same attention as energy performance.",
-    image: "/images/upvc-casement-window.webp", imageAlt: "White uPVC casement window fitted into red brick",
+    image: "/images/area-trafford-upvc-windows.webp", imageAlt: "Window fitter working on a sash-style window at a Trafford red-brick terrace",
     neighbourhoods: ["Altrincham", "Sale", "Stretford", "Urmston", "Hale", "Partington"], propertyTypes: ["Victorian terraces", "Inter-war semis", "Large detached houses", "Modern estates"],
     localDetail: "Larger semis may combine bays, landing windows and rear openings in one project. A room-by-room schedule keeps opening styles and glass choices clear.",
     planningNote: "Trafford has conservation areas where replacement details can face tighter controls. Check the address before switching material, colour or pane pattern.",
@@ -223,7 +223,7 @@ export const areaPages: AreaPage[] = [
   {
     slug: "oldham", name: "Oldham", title: "uPVC windows in Oldham", description: "uPVC windows for exposed, stone and brick homes across Oldham.",
     intro: "Oldham’s elevation and weather exposure make seals, drainage and external finishing worth close attention. Stone openings and uneven reveals can also need more survey time than a standard newer property.",
-    image: "/images/upvc-casement-window.webp", imageAlt: "Weather-sealed white uPVC casement window",
+    image: "/images/area-oldham-upvc-windows.webp", imageAlt: "Window fitters sealing white uPVC windows on an Oldham stone terrace",
     neighbourhoods: ["Chadderton", "Royton", "Shaw", "Lees", "Saddleworth", "Failsworth"], propertyTypes: ["Stone terraces", "Brick semis", "Cottages", "Newer family homes"],
     localDetail: "Exposed elevations put hardware, seals and drainage under more pressure. Ask how the chosen system handles weather and which external sealant or pointing method the installer proposes.",
     planningNote: "Stone villages and conservation areas may call for specific proportions or materials. Check before replacing original windows in a protected property.",
@@ -233,7 +233,7 @@ export const areaPages: AreaPage[] = [
   {
     slug: "bolton", name: "Bolton", title: "uPVC windows in Bolton", description: "Casement, sash-style and bay windows supplied and installed throughout Bolton.",
     intro: "Bolton has a broad mix of stone cottages, terraces, inter-war semis and newer estates. One frame system can cover several styles, but the pane layout and finish should change with the property.",
-    image: "/images/manchester-bay-window.webp", imageAlt: "uPVC bay window on a traditional Greater Manchester home",
+    image: "/images/area-bolton-upvc-windows.webp", imageAlt: "Window fitter checking a white uPVC bay window on a Bolton semi-detached house",
     neighbourhoods: ["Horwich", "Farnworth", "Westhoughton", "Heaton", "Astley Bridge", "Little Lever"], propertyTypes: ["Stone cottages", "Terraced houses", "Bay-fronted semis", "New-build homes"],
     localDetail: "Bay-fronted semis often need a coordinated design across both floors. Ask for elevation drawings that show transom heights and opening sections before signing the order.",
     planningNote: "Original details can matter in conservation areas and on listed buildings. Written council advice may be needed before work starts.",
@@ -243,7 +243,7 @@ export const areaPages: AreaPage[] = [
   {
     slug: "bury", name: "Bury", title: "uPVC windows in Bury", description: "uPVC windows supplied and installed across Bury and nearby towns.",
     intro: "Bury homes include compact terraces, bay-fronted semis and larger properties toward the borough’s northern edge. Room use, exposure and the street-facing elevation should guide the specification.",
-    image: "/images/sash-window-interior.webp", imageAlt: "Traditional sash-style windows with modern glazing",
+    image: "/images/area-bury-upvc-windows.webp", imageAlt: "White sash-style uPVC windows in a Bury period home",
     neighbourhoods: ["Prestwich", "Whitefield", "Radcliffe", "Ramsbottom", "Tottington", "Unsworth"], propertyTypes: ["Brick terraces", "Period villas", "1930s semis", "Modern family homes"],
     localDetail: "Period streets around Prestwich and Ramsbottom can benefit from restrained glazing bars and suitable sightlines. A standard casement grid may look too heavy in taller openings.",
     planningNote: "Check conservation-area guidance where the frontage contributes to a historic street. Like-for-like appearance can still require close attention to material and detail.",
@@ -253,7 +253,7 @@ export const areaPages: AreaPage[] = [
   {
     slug: "rochdale", name: "Rochdale", title: "uPVC windows in Rochdale", description: "Replacement uPVC windows for stone, brick and modern homes in Rochdale.",
     intro: "Rochdale’s older stone housing and exposed locations need careful surveys. The fitter must plan fixings, sealant and making good around each opening rather than relying on standard trim widths.",
-    image: "/images/upvc-casement-window.webp", imageAlt: "Close detail of a sealed white casement window",
+    image: "/images/area-rochdale-upvc-windows.webp", imageAlt: "Window fitter working on a white uPVC window in a Rochdale stone terrace",
     neighbourhoods: ["Middleton", "Heywood", "Littleborough", "Milnrow", "Wardle", "Bamford"], propertyTypes: ["Stone terraces", "Cottages", "Brick semis", "Newer estates"],
     localDetail: "Wide temperature swings and wind-driven rain expose weak joints. Ask the installer to explain frame drainage, perimeter sealing and how the sill meets the masonry.",
     planningNote: "Some stone settlements include listed buildings or conservation areas. Modern frame material may not suit every protected opening.",
@@ -263,7 +263,7 @@ export const areaPages: AreaPage[] = [
   {
     slug: "tameside", name: "Tameside", title: "uPVC windows in Tameside", description: "uPVC windows supplied and installed across Tameside.",
     intro: "Tameside spans dense terraced streets, hillside stone homes and suburban estates. Window projects often need a mix of straightforward casements, privacy glass and carefully planned front bays.",
-    image: "/images/manchester-bay-window.webp", imageAlt: "Red-brick terrace with white uPVC bay window",
+    image: "/images/area-tameside-upvc-windows.webp", imageAlt: "Window fitter beside a white uPVC bay window on a Tameside hillside street",
     neighbourhoods: ["Ashton-under-Lyne", "Stalybridge", "Hyde", "Denton", "Droylsden", "Mossley"], propertyTypes: ["Terraced houses", "Stone homes", "Post-war semis", "Modern estates"],
     localDetail: "Properties near busy roads may need a conversation about acoustic glass and noise-attenuating ventilation. The glass and ventilator should form one specification.",
     planningNote: "Conservation controls may apply in older centres and villages. Check before changing the pattern or material of prominent windows.",
@@ -273,7 +273,7 @@ export const areaPages: AreaPage[] = [
   {
     slug: "wigan", name: "Wigan", title: "uPVC windows in Wigan", description: "New and replacement uPVC windows installed throughout Wigan borough.",
     intro: "Wigan’s housing includes mining terraces, semis, cottages and broad newer developments. Larger borough distances make accurate job details useful when matching a request with an installer.",
-    image: "/images/upvc-casement-window.webp", imageAlt: "White uPVC casement window in a brick house",
+    image: "/images/area-wigan-upvc-windows.webp", imageAlt: "Window fitter measuring an opening at the rear of a Wigan brick terrace",
     neighbourhoods: ["Leigh", "Atherton", "Hindley", "Standish", "Ashton-in-Makerfield", "Tyldesley"], propertyTypes: ["Traditional terraces", "Semi-detached homes", "Cottages", "New-build estates"],
     localDetail: "Full-house projects can combine older front windows with later rear extensions. Separate each elevation on the schedule so colours, sill depths and opening styles do not get mixed.",
     planningNote: "Listed buildings and conservation areas need checks before replacement. Leaseholders should also obtain any required consent.",
@@ -283,7 +283,7 @@ export const areaPages: AreaPage[] = [
   {
     slug: "manchester-city-centre", name: "Manchester city centre", title: "Replacement windows in Manchester city centre", description: "Apartment and commercial-style residential window replacement in central Manchester.",
     intro: "Central Manchester window work often involves flats, converted mills and managed buildings. Access, façade rules and responsibility under the lease can matter more than the number of windows.",
-    image: "/images/tilt-turn-window.webp", imageAlt: "Tilt-and-turn window in a modern Manchester apartment",
+    image: "/images/area-manchester-city-centre-windows.webp", imageAlt: "Window fitter adjusting a tilt-and-turn window in a Manchester city-centre mill apartment",
     neighbourhoods: ["Ancoats", "Castlefield", "Northern Quarter", "Deansgate", "New Islington", "Green Quarter"], propertyTypes: ["Purpose-built flats", "Converted mills", "Townhouses", "Managed developments"],
     localDetail: "Upper floors may need scaffolding, rope access or internal fitting methods. The building manager may specify frame colour, opening restrictors, acoustic performance and working hours.",
     planningNote: "Lease and freeholder approval often governs apartment windows. Listed mills and conservation areas add a separate planning check.",
@@ -296,7 +296,7 @@ export const guidePages: GuidePage[] = [
   {
     slug: "upvc-window-costs", title: "What affects the cost of uPVC windows?", description: "Understand the choices that shape a uPVC window quote before comparing prices in Manchester.",
     intro: "Window quotes change with size, style, glass, access and finishing work. A single average price hides those differences. Build a clear schedule first, then ask each installer to price the same job.",
-    image: "/images/upvc-casement-window.webp", imageAlt: "Close-up of a white uPVC casement window", updated: "20 July 2026", readTime: "7 minute read",
+    image: "/images/guide-upvc-window-costs.webp", imageAlt: "Homeowners reviewing a uPVC window schedule, frame samples and calculator with a surveyor", updated: "20 July 2026", readTime: "7 minute read",
     sections: [
       { heading: "Frame size and opening style", paragraphs: ["Larger frames use more material and heavier glass. Opening panes add hinges, locks and fitting time, while fixed panes need less hardware. Bays, arched heads and coupled frames need extra survey and manufacturing work.", "Sash-style and tilt-and-turn systems use more complex hardware than basic casements. Compare the product and operation you need instead of choosing on headline price."] },
       { heading: "Glass and hardware", paragraphs: ["Safety, acoustic, solar-control, obscure and laminated glass can change the price. Decorative bars and lead patterns add manufacturing steps. The handle, hinge and locking specification also affects cost and service life.", "Ask for the glass build-up and hardware range in writing. A cheap quote that omits these details is hard to compare with a complete one."] },
@@ -308,7 +308,7 @@ export const guidePages: GuidePage[] = [
   {
     slug: "planning-permission-for-windows", title: "Do replacement windows need planning permission?", description: "A practical guide to planning permission, conservation areas and Building Regulations for windows in England.",
     intro: "Most houses can replace windows with a similar appearance without a planning application. Listed buildings, conservation controls, flats, new bays and unusual changes need closer checks.",
-    image: "/images/manchester-bay-window.webp", imageAlt: "Bay windows on a red-brick Manchester terrace", updated: "20 July 2026", readTime: "8 minute read",
+    image: "/images/guide-window-planning-permission.webp", imageAlt: "Homeowner and surveyor comparing window drawings outside a Manchester period terrace", updated: "20 July 2026", readTime: "8 minute read",
     sections: [
       { heading: "Planning permission and Building Regulations are separate", paragraphs: ["Planning controls the effect of development on the property and its surroundings. Building Regulations set standards for matters such as energy, ventilation and safety. A project can need one, both or neither route depending on the work.", "GOV.UK lists replacement windows and doors as work covered by Building Regulations. A registered competent person can self-certify compliant installation, or you can use building control."] },
       { heading: "Similar replacement windows on a house", paragraphs: ["The Planning Portal says houses do not usually need planning permission for new windows of a similar appearance. Upper-floor side windows face rules on obscure glass and opening height. A new bay window is treated as an extension and may need permission.", "Flats do not receive the same permitted-development rights as houses. Lease terms and freeholder consent add another check even where planning permission is not required."] },
@@ -325,7 +325,7 @@ export const guidePages: GuidePage[] = [
   {
     slug: "window-energy-ratings", title: "Window energy ratings and U-values explained", description: "Compare the thermal performance of replacement windows without relying on vague efficiency claims.",
     intro: "Window labels and U-values help you compare products, but only when the figures cover the same thing. Ask for the value for the complete window in the configuration you plan to buy.",
-    image: "/images/sash-window-interior.webp", imageAlt: "Double-glazed sash-style windows in a Manchester home", updated: "20 July 2026", readTime: "7 minute read",
+    image: "/images/guide-window-energy-ratings.webp", imageAlt: "Window specialist showing an insulated uPVC frame and double-glazing cross-section", updated: "20 July 2026", readTime: "7 minute read",
     sections: [
       { heading: "Whole-window U-value", paragraphs: ["A U-value measures heat transfer. A lower number indicates less heat passing through the measured element. Whole-window figures include the frame and glass, while centre-pane figures describe the glass alone.", "Frame size, opening sections, spacer bars and glass build-up all affect the result. Request the declared performance for the exact product schedule rather than a best-case brochure figure."] },
       { heading: "Window Energy Ratings", paragraphs: ["A Window Energy Rating combines heat loss, solar gain and air leakage into a banded label. It can make product comparison easier, though orientation, room use and installation still affect comfort in the home.", "Keep a copy of the rating or U-value with the contract. If two installers use different measures, ask them to present comparable whole-window data."] },
@@ -341,7 +341,7 @@ export const guidePages: GuidePage[] = [
   {
     slug: "compare-window-quotes", title: "How to compare window quotes", description: "Use a practical checklist to compare window specifications, fitting, guarantees and total cost.",
     intro: "Two totals tell you little if the installers priced different glass, hardware or finishing work. Ask for a room-by-room schedule and compare each line before focusing on the final number.",
-    image: "/images/manchester-bay-window.webp", imageAlt: "Detailed bay window installation on a brick home", updated: "20 July 2026", readTime: "6 minute read",
+    image: "/images/guide-compare-window-quotes.webp", imageAlt: "Homeowner comparing two window schedules with an installer and frame samples", updated: "20 July 2026", readTime: "6 minute read",
     sections: [
       { heading: "Make the product schedule match", paragraphs: ["List every window, opening direction, frame colour, glass type and ventilator. Mark safety glass, obscure glass and escape openings. Give the same schedule to each company.", "Ask for drawings where the pane layout matters. Bays and front elevations deserve a visual check before manufacture."] },
       { heading: "Read the fitting scope", paragraphs: ["Confirm removal, disposal, external sealing, internal trims, plaster repairs and decoration. Ask who moves blinds, alarms or furniture and whether access equipment appears in the total.", "The survey should identify known masonry, lintel or sill concerns. Allowances and exclusions belong in the written quote."] },
@@ -353,7 +353,7 @@ export const guidePages: GuidePage[] = [
   {
     slug: "condensation-and-misted-windows", title: "Condensation, misted panes and failed double glazing", description: "Identify where window condensation forms and decide whether you need ventilation, repair or replacement.",
     intro: "The position of the moisture gives the first clue. Water on the room-side glass points toward indoor humidity and a cold surface. Mist trapped between panes usually indicates a failed sealed unit.",
-    image: "/images/tilt-turn-window.webp", imageAlt: "Open tilt window providing controlled room ventilation", updated: "20 July 2026", readTime: "6 minute read",
+    image: "/images/guide-condensation-misted-windows.webp", imageAlt: "Window specialist checking condensation, misted glazing and a trickle vent", updated: "20 July 2026", readTime: "6 minute read",
     sections: [
       { heading: "Moisture on the inside face", paragraphs: ["Cooking, showering, drying clothes and breathing add water vapour to indoor air. Moisture condenses on a cold pane when the surface drops below the dew point.", "Use extract fans, background ventilation and steady heating as intended. Wipe persistent water from frames and sills while you investigate the cause, since repeated wetting can damage finishes and encourage mould."] },
       { heading: "Mist between the panes", paragraphs: ["A failed edge seal can let moisture enter the cavity of a double-glazed unit. Cleaning will not reach condensation trapped between panes.", "If the frame and hardware remain sound, a glazier may replace only the sealed unit. Ask them to inspect drainage and glazing packers so the new unit does not inherit an avoidable problem."] },

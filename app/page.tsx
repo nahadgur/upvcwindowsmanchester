@@ -76,13 +76,23 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="section home-service-intro">
+        <div className="shell split-heading home-service-grid">
+          <div><h2>uPVC windows supplied and installed in Manchester</h2></div>
+          <div className="home-copy-block">
+            <p>We supply made-to-measure uPVC windows and fit them in homes across Manchester and Greater Manchester. Our service covers the property survey, window specification, manufacture, removal of the old frames, installation, sealing and the finishing work agreed in your quote.</p>
+            <p>You can ask us to replace one failed window, update a draughty bay or price a full house. We fit casement windows, sash-style windows, bay windows and tilt-and-turn windows with double or triple glazing, coloured frames, security hardware and ventilation selected for the room.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="section options" id="window-options">
         <div className="shell">
           <div className="section-heading split-heading">
             <div>
-              <h2>Window styles that suit the property</h2>
+              <h2>uPVC window styles we install in Manchester</h2>
             </div>
-            <p>From Victorian terraces to newer estates, the right frame style should work with the home, not fight it.</p>
+            <p>Choose the opening style first, then select the glass, frame colour, locks and ventilation for each room.</p>
           </div>
           <div className="option-grid">
             {windowOptions.map((item) => (
@@ -98,19 +108,42 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="section home-installation-detail">
+        <div className="shell">
+          <div className="section-heading split-heading">
+            <div><h2>Replacement windows and double glazing in Manchester</h2></div>
+            <p>We replace old timber, aluminium and uPVC windows with made-to-measure uPVC frames. Each window is surveyed, specified and fitted for its opening.</p>
+          </div>
+          <div className="home-detail-grid">
+            <article>
+              <h3>Replacement uPVC windows</h3>
+              <p>We can replace a single damaged window, several windows on one elevation or every window in the house. The survey checks the frame, sill, reveal, access and signs of water entry before we recommend a specification. Your quote should show which windows open, the frame colour, glass, handles, ventilation and any internal or external finishing work.</p>
+            </article>
+            <article>
+              <h3>Double-glazed windows</h3>
+              <p>New double glazing can reduce draughts, improve security and make the inside face of the glass feel warmer. We specify the full window, not the glass alone. That includes the uPVC frame, sealed glass unit, spacer, locks, hinges and background ventilation. Safety, obscure, acoustic and solar-control glass can be added where the room or location needs it.</p>
+            </article>
+            <article>
+              <h3>Window survey and installation</h3>
+              <p>We measure every opening before manufacture and agree the pane layout with you. On installation day, the old frame is removed, the opening is prepared and the new window is fixed, glazed, sealed and tested. We check operation and leave the agreed trims and making good complete. Waste removal, VAT, payment stages and guarantees should all appear in the written quote.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section className="section home-content-links">
         <div className="shell">
           <div className="section-heading split-heading">
-            <div><h2>Window guidance built around the property</h2></div>
-            <p>Research the product, check the local context, then give each installer the same written scope.</p>
+            <div><h2>uPVC windows across Greater Manchester</h2></div>
+            <p>We cover Manchester, Salford, Trafford, Stockport and the wider city region. Choose your area for local property and planning information.</p>
           </div>
           <div className="home-link-columns">
             <div>
-              <div className="home-list-heading"><h3>Greater Manchester areas</h3><Link href="/areas">View all areas</Link></div>
+              <div className="home-list-heading"><h3>Areas we cover</h3><Link href="/areas">View all areas</Link></div>
               <ul>{areaPages.slice(0, 6).map((area) => <li key={area.slug}><Link href={`/areas/${area.slug}`}><span>{area.name}</span><i aria-hidden="true">→</i></Link></li>)}</ul>
             </div>
             <div>
-              <div className="home-list-heading"><h3>Homeowner guides</h3><Link href="/guides">View all guides</Link></div>
+              <div className="home-list-heading"><h3>uPVC window guides</h3><Link href="/guides">View all guides</Link></div>
               <ul>{guidePages.slice(0, 4).map((guide) => <li key={guide.slug}><Link href={`/guides/${guide.slug}`}><span>{guide.title}</span><i aria-hidden="true">→</i></Link></li>)}</ul>
             </div>
           </div>
@@ -126,8 +159,8 @@ export default function HomePage() {
             <p>Measure twice.<br />Choose once.</p>
           </div>
           <div className="decision-copy">
-            <h2>A better quote starts with better questions</h2>
-            <p>Price matters, but it is only one part of the job. Give enough detail for an installer to understand the property and ask them to explain exactly what is included.</p>
+            <h2>What our uPVC window installation includes</h2>
+            <p>We measure each opening and prepare a written window schedule before manufacture. Your quote should state the frame style, glass, hardware, ventilation, fitting work, making good, waste removal, VAT and guarantee.</p>
             <ul className="check-list">
               <li><span>01</span><div><strong>Frame and glass specification</strong><p>Ask about energy rating, glass type, locks and ventilation.</p></div></li>
               <li><span>02</span><div><strong>Fitting and finish</strong><p>Confirm making good, trims, sealant and waste removal.</p></div></li>
@@ -140,13 +173,13 @@ export default function HomePage() {
       <section className="section process" id="how-it-works">
         <div className="shell">
           <div className="section-heading centred">
-            <h2>From postcode to quote</h2>
-            <p>Tell us what you need. We will discuss the property and arrange the next step.</p>
+            <h2>How uPVC window installation works</h2>
+            <p>Tell us what you need, arrange a property survey and check the written specification before the windows go into manufacture.</p>
           </div>
           <ol className="process-grid">
-            <li><span>1</span><h3>Describe the job</h3><p>Share your postcode, window count and preferred timescale.</p></li>
-            <li><span>2</span><h3>Arrange a survey</h3><p>We discuss the property and arrange a suitable time to measure.</p></li>
-            <li><span>3</span><h3>Review the quote</h3><p>Check the specification, fitting details and total before deciding.</p></li>
+            <li><span>1</span><h3>Tell us about the windows</h3><p>Share your Manchester postcode, window count and preferred timescale.</p></li>
+            <li><span>2</span><h3>Book a window survey</h3><p>We inspect the openings, access, ventilation and finishing work.</p></li>
+            <li><span>3</span><h3>Approve the written quote</h3><p>Check the window schedule, fitting details, VAT and total price.</p></li>
           </ol>
           <div className="process-action"><a className="button" href="#quote">Get a free quote <span aria-hidden="true">→</span></a><small>No payment. No obligation.</small></div>
         </div>
@@ -155,9 +188,9 @@ export default function HomePage() {
       <section className="section area-section">
         <div className="shell area-grid">
           <div>
-            <h2>Manchester knowledge matters</h2>
-            <p>Window requirements change from one property to the next. A bay-fronted terrace in Levenshulme is not the same job as a modern flat in Salford Quays or a semi in Didsbury.</p>
-            <p>We use your postcode to check coverage and discuss the right specification for the building.</p>
+            <h2>Areas we cover in Manchester</h2>
+            <p>We install uPVC windows across Manchester and Greater Manchester. Our coverage includes city-centre apartments, Salford terraces, Trafford semis, Stockport family homes and properties throughout Tameside, Oldham, Rochdale, Bury, Bolton and Wigan.</p>
+            <p>Your postcode helps us check coverage and plan the survey. Tell us about upper floors, bay windows, parking restrictions or narrow access when you request a quote.</p>
           </div>
           <div className="area-card">
             <h3>Areas covered</h3>
@@ -170,8 +203,8 @@ export default function HomePage() {
       <section className="section faq-section" id="questions">
         <div className="shell faq-grid">
           <div className="faq-intro">
-            <h2>Sensible questions before you request a quote</h2>
-            <p>Clear answers now make it easier to compare options later.</p>
+            <h2>uPVC windows Manchester: frequently asked questions</h2>
+            <p>Answers about prices, coverage, surveys and window specifications.</p>
             <a href="#quote">Get a free quote <span aria-hidden="true">→</span></a>
           </div>
           <div className="faq-list">
