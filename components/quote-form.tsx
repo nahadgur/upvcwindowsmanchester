@@ -23,13 +23,17 @@ export function QuoteForm() {
         body: JSON.stringify(data),
       });
       const body = (await response.json()) as { message?: string };
-      if (!response.ok) throw new Error(body.message || "We could not send your request.");
+      if (!response.ok) {
+        setStatus("error");
+        setMessage(body.message || "We could not send your request. Please try again.");
+        return;
+      }
       setStatus("success");
       setMessage(body.message || "Thanks. Your quote request has been received.");
       form.reset();
     } catch (error) {
       setStatus("error");
-      setMessage(error instanceof Error ? error.message : "We could not send your request. Please try again.");
+      setMessage("We could not send your request. Please check your connection and try again.");
     }
   }
 
